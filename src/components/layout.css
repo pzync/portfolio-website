@@ -26,3 +26,14 @@ body {
     transform: translateY(0px);
   }
 }
+
+  /* large desktops above width 1440px */
+  /* this will fix the max width ever on any device at 1440px */
+
+  @media only screen 
+  and (min-width: 1441px) {
+    html,
+    body {
+      width: 1440px;
+    }
+  }
