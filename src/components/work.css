@@ -1,0 +1,70 @@
+.WorkContainer {
+  /* max-width: 800px; */
+  max-width: 640px;
+  margin: 40px auto;
+  padding: 40px 40px;
+  animation: EnterAnimation 1s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.WorkSectionHeading {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #10051d56;
+  font-size: 12px;
+  font-weight: 700;
+  margin-top: 80px;
+}
+
+.WorkHighlight {
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 800;
+  margin-bottom: 8px;
+  letter-spacing: -0.01em;
+}
+
+.WorkText {
+  color: #10051d94;
+  margin-top: 8px;
+}
+
+.WorkCardImage {
+  width: 100%;
+  height: auto;
+}
+
+.WorkImageBorder {
+  border: solid 1px #10051d10;
+}
+
+.WorkSection {
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+.WorkImageHalfGrid {
+  display: grid;
+  grid-column-gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.WorkTallImage {
+  grid-row: span 2;
+}
+
+.WorkBottomRightImage {
+  align-self: end;
+}
+
+/* for mobile devices */
+
+@media only screen and (max-width: 480px) {
+  .WorkContainer {
+    padding: 0 20px 80px;
+  }
+
+  .WorkHighlight {
+    font-size: 20px;
+    line-height: 25px;
+  }
+}
