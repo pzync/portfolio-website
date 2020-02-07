@@ -20,7 +20,7 @@ const Header = () => (
         <Link to="/work" className="HeaderNavLink">
           Work
         </Link>
-        <Link to="/writing" className="HeaderNavLink">
+        <Link to="/about#writing" className="HeaderNavLink">
           Writing
         </Link>
         <Link to="/cabinet" className="HeaderNavLink">
