@@ -1,0 +1,260 @@
+/* For the Home or Cover or Index page */
+
+.MainContainer {
+  height: calc(100vh - 80px);
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 30px 1fr 1fr 1fr 1fr 1fr 1fr 30px;
+  grid-template-rows: 30px 1fr 1fr 1fr 1fr 1fr 1fr 30px;
+}
+
+.GrayJacketBg {
+  z-index: -1;
+  background-color: #f4f4f4;
+  grid-row: 1 / 8;
+  grid-column: 2 / 8;
+}
+
+
+.H1AndSocialLinkLogos {
+  grid-row: 4 / 5;
+  grid-column: 2 / 8;
+  margin-left: 30px;
+}
+
+.SmallH1 {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 16px;
+  font-weight: 400;
+  color: #6600ff;
+  margin-top: 0;
+  margin-bottom: 0;
+  letter-spacing: 1px;
+}
+
+.HugeH1 {
+  font-family: "Inter", system-ui, sans-serif;
+  /* changing from .07 to .073 made all the difference */
+  /* This .073 multiplier took care of the weird HugeH1 
+  size between 767 to 860 px browser width on desktop*/
+  font-size: calc(96px - 0.073*(1280px - 100vw)); 
+  font-weight: 900;
+  color: #10051D;
+  letter-spacing: -1.6px;
+  margin-top: 0;
+  margin-left: -4px;
+  margin-bottom: 24px;
+  line-height: 0.9;
+}
+
+.SocialLinkLogo {
+  margin-right: 16px;
+}
+
+.HelloAndStatsAtBottom {
+  grid-row: 7 / 8;
+  grid-column: 2 / 8;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
+  margin: 0 30px 30px 30px;
+}
+
+.HelloAtBottom {
+  font-size: 15px;
+  line-height: 25px;
+  margin: 0 0;
+  padding-right: 32px;;
+}
+
+.StatsContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-left: 48px;
+  justify-items: end;
+  grid-column-gap: 16px;
+}
+
+.Stat {
+  max-width: 136px;
+}
+
+.StatNumber {
+  font-size: 36px;
+  color: #6600ff;
+  letter-spacing: -1px;
+  margin-top: 0;
+  margin-bottom: 0;
+  
+}
+
+.StatNumberBold {
+  font-weight: 800;
+}
+
+.StatNumberLight {
+  font-weight: 200;
+}
+
+.StatDesc {
+  font-size: 14.4px;
+  /* reduced the font size just a lil bit from 15 everywhere 
+  because it was justting out with lesser line height here */
+  line-height: 18px;
+  margin-top: 8px;
+  margin-bottom: 3px;
+  color: #10051D;
+  /* the max width prop because on Safari and iOS, the first line
+  is going way to long */
+  max-width: 15ch;
+}
+
+/* For Mobile - Portrait */
+@media only screen 
+and (max-width: 480px) {
+  
+  .MainContainer {
+    width: 100vw;
+    background-color: #f4f4f4;
+    margin-top: 20px;
+    display: block;
+    height: fit-content;
+  }
+
+  .GrayJacketBg {
+    display: none;
+  }
+
+  .H1AndSocialLinkLogos {
+    padding-top: 16vh;
+    margin-left: 20px;
+  }
+
+  .SmallH1 {
+    font-size: 14px;
+    letter-spacing: 0;
+  }
+
+  .HugeH1 {
+    font-size: 72px;
+    margin-bottom: 36px;
+    margin-left: -2px;
+  }
+
+  .SocialLinkLogo {
+    width: 28px;
+    margin-right: 20px;
+  }
+
+  .HelloAndStatsAtBottom {
+    display: block;
+    padding: 16vh 20px 8vh 20px;
+    margin: 0 0
+  }
+
+  .StatsContainer {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: start;
+    padding: 48px 0;
+    grid-row-gap: 48px;
+  
+  }
+}
+
+/* The weird widths between mobile to tablet */
+
+@media only screen 
+  and (min-width: 481px)
+  and (max-width: 767px) {
+
+    .SmallH1 {
+      font-size: 14.5px;
+      letter-spacing: 1px;
+    }
+  
+    .HugeH1 {
+      font-size: 84px;
+      margin-bottom: 36px;
+      margin-left: -2px;
+    }
+
+    .H1AndSocialLinkLogos {
+      padding-top: 16vh;
+      margin-left: 30px;
+    }
+
+    .HelloAndStatsAtBottom {
+      display: block;
+      padding: 16vh 30px 8vh 30px;
+      margin: 0 0
+    }
+
+    .StatsContainer {
+      justify-items: start;
+      padding: 64px 0;
+      grid-gap: 36px;
+    
+    }
+  }
+
+/* Tablet Portrait - covers iPad Pro 12.9 too as max width is > 1024px */
+
+  @media only screen 
+  and (min-width: 768px)
+  and (max-width:1080px)
+  and (orientation: portrait) {
+
+    .SmallH1 {
+      font-size: 16px;
+      letter-spacing: .6px;
+    }
+  
+    .HugeH1 {
+      font-size: 92px;
+      margin-bottom: 36px;
+      margin-left: -2px;
+    }
+
+    .HelloAndStatsAtBottom {
+      align-items: start;
+    }
+
+    .HelloAtBottom {
+      margin-top: -4px
+    }
+
+    .StatsContainer {
+      grid-template-columns: repeat(2, 1fr);
+      justify-items: center;
+      grid-gap: 32px
+    }
+  }
+
+  /* large desktops from 1281px to 1440px */
+  @media only screen 
+  and (min-width: 1281px)
+  and (max-width: 1440px) {
+    .SmallH1 {
+      font-size: 17px;
+      letter-spacing: 1.2px;
+    }
+
+    .HugeH1 {
+      font-size: calc(96px + 0.073*(100vw - 1280px));
+    }
+  }
+
+
+  /* large desktops above width 1440px */
+
+  @media only screen 
+  and (min-width: 1441px) {
+    html,
+    body {
+      width: 1440px;
+    }
+
+    .MainContainer {
+      width: 1440px;
+    }
+  }
