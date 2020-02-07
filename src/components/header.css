@@ -1,0 +1,78 @@
+.HeaderGroup {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    padding: 0 40px 0 60px;
+    max-width: calc(100vw - 80px);
+    margin: 0 auto;
+    max-height: 80px ; /* added with grid layout */
+  }
+  
+  .HeaderGroup a:hover {
+    color: #6600ff;
+  }
+  
+  .HeaderGroup a:focus {
+    color: #6600ff;
+  }
+  
+  .HeaderGroup a:active {
+    color: #6600ff;
+  }
+  
+  .HeaderSiteTitle {
+    font-weight: 900;
+    font-size: 18px;
+    color: #10051d;
+    text-decoration: none;
+  }
+  
+  .HeaderSiteNav {
+    display: inline-block;
+    padding: 30px 0;
+  }
+  
+  .HeaderSiteNav a {
+    color: #10051d;
+    text-decoration: none;
+    
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0 20px;
+  }
+  
+  @media only screen and (max-width: 720px) {
+    .HeaderGroup {
+      padding: 0 60px;
+      max-width: calc(100vw - 40px);
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .HeaderGroup {
+      grid-template-columns: 1fr;
+      justify-items: left;
+      margin-top: 20px;
+      padding: 0 20px;
+    }
+  
+    
+
+    .HeaderSiteTitleContainer h1 {
+      margin-top: 4px;
+      margin-bottom: 8px;
+    }
+  
+    .HeaderSiteNav {
+      padding-top: 10px;
+      display: grid;
+      width: 100%;
+      grid-template-columns: repeat(4, 1fr);
+      justify-items: start;
+    }
+  
+    .HeaderSiteNav a {
+      margin-left: 0;
+      text-decoration: underline;
+    }
+  }
+  
