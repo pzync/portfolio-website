@@ -1,0 +1,100 @@
+
+.AboutBodyContainer {
+    max-width: 640px;
+    margin: 40px auto;
+    padding: 40px 40px;
+    opacity: 0;
+    animation: EnterAnimation 1s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
+  
+  /* .TextContent h3 {
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+  } */
+  
+  .AboutTextContent .AboutHeroItalic {
+    font-family: "Roboto Mono", monospace;
+    font-size: 16px;
+    /* font-style: italic; */
+    font-weight: 500;
+    color: #ff6666;
+    margin-bottom: 0;
+  }
+  
+  .AboutTextContent .AboutHeroMassive {
+    font-size: 88px;
+    line-height: 80px;
+    font-weight: 800;
+    margin-top: 0;
+    margin-bottom: 40px;
+    margin-left: -4px;
+    letter-spacing: -0.01em;
+  }
+  
+  .AboutTextContent .AboutHeroSeparator {
+    height: 6px;
+    width: 40px;
+    background-color: #ff4040;
+    margin-bottom: 60px;
+  }
+  
+  .AboutTextContent .AboutSummaryBlock {
+    background-color: #f2f2f2;
+    padding: 16px 20px;
+    margin: 20px 0;
+    border-left: 6px solid #ddd;
+  }
+  
+  .AboutTextContent a {
+    text-decoration: underline;
+    color: inherit;
+  }
+  
+  .AboutTextContent a:hover {
+    color: #0040ff;
+    background: #f2f2f2;
+  }
+  
+  .AboutWritingSection .AboutSectionTitle {
+    text-transform: uppercase;
+    color: #10051d56;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    margin-top: 80px;
+    margin-bottom: 20px;
+  }
+  
+  /* for mobile devices */
+  
+  @media only screen and (max-width: 480px) {
+    body {
+      font-size: 16px;
+      line-height: 24px;
+    }
+  
+    .AboutBodyContainer {
+      padding: 0 20px 80px;
+    }
+  
+    .AboutTextContent h3 {
+      font-size: 20px;
+      line-height: 29px;
+    }
+  
+    .AboutTextContent .AboutHeroMassive {
+      font-size: 68px;
+      line-height: 64px;
+    }
+  
+    .AboutTextContent .AboutHeroItalic {
+      font-size: 14px;
+    }
+  
+    .AboutTextContent .AboutSummaryBlock {
+      padding: 12px 16px;
+      margin: 16px 0;
+    }
+  }
