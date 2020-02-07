@@ -1,0 +1,70 @@
+.CabinetContainer {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 20px 40px 80px;
+  animation: EnterAnimation 1s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.CabinetMasonry {
+  column-count: 3;
+  column-gap: 40px;
+}
+
+.CabinetItem {
+  display: inline-block;
+  margin: 0 0 12px;
+  width: 100%;
+  padding: 8px 0;
+}
+
+.CabinetCardImage {
+  width: 100%;
+  height: auto;
+}
+
+.CabinetImageBorder {
+  border: solid 1px #10051d10;
+}
+
+.CabinetDesc {
+  margin: 80px 0 80px;
+}
+
+.CabinetCardDesc {
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 22px;
+  margin: 8px 0 10px;
+}
+
+video:focus {
+  /* removes the blue highlight on playing */
+  outline: none;
+}
+
+/* for tablets in portrait */
+@media (max-width: 840px) {
+  .CabinetMasonry {
+    column-count: 2;
+  }
+}
+
+/* for mobile devices */
+@media only screen and (max-width: 480px) {
+  .CabinetContainer {
+    padding: 0 20px 80px;
+  }
+
+  .CabinetDesc {
+    margin: 40px 0 40px;
+  }
+
+  .CabinetMasonry {
+    column-count: 1;
+    column-gap: 20px;
+  }
+
+  .CabinetCardDesc {
+    margin: 8px 0;
+  }
+}
