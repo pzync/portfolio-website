@@ -24,9 +24,9 @@
   }
   
   .AboutTextContent .AboutHeroMassive {
-    font-size: 88px;
-    line-height: 80px;
-    font-weight: 800;
+    font-size: 80px;
+    line-height: 72px;
+    font-weight: 500;
     margin-top: 0;
     margin-bottom: 40px;
     margin-left: -4px;
@@ -36,7 +36,7 @@
   .AboutTextContent .AboutHeroSeparator {
     height: 6px;
     width: 40px;
-    background-color: #ff4040;
+    background-color: #ff6666;
     margin-bottom: 60px;
   }
   

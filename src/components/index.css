@@ -6,6 +6,7 @@
   display: grid;
   grid-template-columns: 30px 1fr 1fr 1fr 1fr 1fr 1fr 30px;
   grid-template-rows: 30px 1fr 1fr 1fr 1fr 1fr 1fr 30px;
+  animation: EnterAnimation 1s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 .GrayJacketBg {
