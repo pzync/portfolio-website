@@ -149,7 +149,7 @@ and (max-width: 480px) {
 
   .HelloAndStatsAtBottom {
     display: block;
-    padding: 16vh 20px 8vh 20px;
+    padding: 8vh 20px 16vh 20px;
     margin: 0 0
   }
 
