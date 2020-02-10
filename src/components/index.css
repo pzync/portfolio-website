@@ -162,6 +162,15 @@ and (max-width: 480px) {
   }
 }
 
+/* For very small mobile screens like iPhone 5/SE */
+@media only screen 
+  and (min-width: 320px)
+  and (max-width: 359px) {
+    .HugeH1 {
+      font-size: 64px;
+    }
+  }
+
 /* The weird widths between mobile to tablet */
 
 @media only screen 
