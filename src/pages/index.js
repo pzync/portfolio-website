@@ -1,8 +1,6 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 import "../components/index.css"
 
@@ -16,21 +14,29 @@ const IndexPage = () => (
         <p className="SmallH1">Designer & PM working on <br /></p><h1 className="HugeH1">massive scale products.</h1>
         
         <div className="SocialLinkLogosContainer">
-          <img 
-          className="SocialLinkLogo"
-          src={require("../images/twitter-logo.svg")}
-          alt="Twitter" 
-          />
-          <img 
-          className="SocialLinkLogo"
-          src={require("../images/linkedin-logo.svg")}
-          alt="LinkedIn" 
-          />
+          <a href="https://twitter.com/ShekharGurav" target="_blank" rel="noopener noreferrer">
+            <img 
+            className="SocialLinkLogo"
+            src={require("../images/twitter-logo.svg")}
+            alt="Twitter" 
+            />
+          </a>
+
+          <a href="https://in.linkedin.com/in/ShekharGurav" target="_blank" rel="noopener noreferrer">
+            <img 
+            className="SocialLinkLogo"
+            src={require("../images/linkedin-logo.svg")}
+            alt="LinkedIn" 
+            />
+          </a>
+
+        <a href="https://medium.com/@ShekharGurav" target="_blank" rel="noopener noreferrer">
           <img 
           className="SocialLinkLogo"
           src={require("../images/medium-logo.svg")}
           alt="Medium" 
           />
+        </a>
         </div>
         </div>
         
