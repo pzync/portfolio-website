@@ -52,8 +52,8 @@ const IndexPage = () => (
               <p className="StatDesc">installs of UPI Common Library</p>
             </div>
             <div className="Stat">
-              <p className="StatNumber"><span className="StatNumberBold">10</span><span className="StatNumberLight">Mn+</span></p>
-              <p className="StatDesc">people use my work every day</p>
+              <p className="StatNumber"><span className="StatNumberBold">40</span><span className="StatNumberLight">Mn+</span></p>
+              <p className="StatDesc">daily users of Juspay products</p>
             </div>    
           </div>
         </div>
