@@ -45,7 +45,7 @@ const AboutPage = () => (
           successful business.
         </p> */}
         <p>
-          I also dabble in generative art using Processing, prototype using code
+          I dabble in generative art with Processing(p5.js), prototype using code
           and sometimes{" "}
           <a
             href="https://twitter.com/themeanstartup"
@@ -53,7 +53,7 @@ const AboutPage = () => (
             rel="noopener noreferrer"
           >
             {" "}
-            draw
+            draw comics
           </a>{" "}
           as well.
         </p>
