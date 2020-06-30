@@ -22,7 +22,7 @@ const AboutPage = () => (
           At Juspay, I’ve led the design of BHIM app which processes
           transactions worth INR 5 billion+ per month. It's the #8 fintech app in the world. I also worked on
           designing the UPI Common Library that's currently installed
-          on over 100 million devices. The Juspay suite of products process 20 million+
+          on over 100 million devices. The Juspay suite of products process 40 million+
           transactions per day and count Amazon, Uber, Visa, Myntra, Flipkart,
           Vodafone, and Ola as customers.
         </p>
