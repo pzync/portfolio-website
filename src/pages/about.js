@@ -39,11 +39,11 @@ const AboutPage = () => (
           Global, DST & Tata. I also founded The Playce, one of the
           largest coworking spaces in India that's still growing.
         </p>
-        <p className="AboutSummaryBlock">
+        {/* <p className="AboutSummaryBlock">
           Overall, I have built and led teams both large and small, shipped
           billion-scale products on challenging timelines and founded a
           successful business.
-        </p>
+        </p> */}
         <p>
           I also dabble in generative art using Processing, prototype using code
           and sometimes{" "}
@@ -58,7 +58,7 @@ const AboutPage = () => (
           as well.
         </p>
         <p>
-          Feel free to reach out on{" "}
+          👋🏻 Feel free to reach out on{" "}
           <a
             href="http://twitter.com/ShekharGurav"
             target="_blank"
