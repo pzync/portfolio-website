@@ -38,7 +38,7 @@
   /* changing from .07 to .073 made all the difference */
   /* This .073 multiplier took care of the weird HugeH1 
   size between 767 to 860 px browser width on desktop*/
-  font-size: calc(96px - 0.073*(1280px - 100vw)); 
+  font-size: calc(88px - 0.073*(1280px - 100vw)); 
   font-weight: 900;
   color: #10051D;
   letter-spacing: -1.6px;
@@ -250,7 +250,7 @@ and (max-width: 480px) {
     }
 
     .HugeH1 {
-      font-size: calc(96px + 0.073*(100vw - 1280px));
+      font-size: calc(88px + 0.073*(100vw - 1280px));
     }
   }
 

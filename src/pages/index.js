@@ -11,7 +11,7 @@ const IndexPage = () => (
       
       
         <div className="H1AndSocialLinkLogos">
-        <p className="SmallH1">Designer & PM working on <br /></p><h1 className="HugeH1">massive scale products.</h1>
+        <p className="SmallH1">Designer & PM who loves <br /></p><h1 className="HugeH1">crafting humane products.</h1>
         
         <div className="SocialLinkLogosContainer">
           <a href="https://twitter.com/ShekharGurav" target="_blank" rel="noopener noreferrer">
