@@ -11,9 +11,24 @@
 
 .GrayJacketBg {
   z-index: -1;
-  background-color: #f4f4f4;
   grid-row: 1 / 8;
   grid-column: 2 / 8;
+  background: linear-gradient(-45deg, #28f5e4, #6a82fb, #fc5c7d);
+  background-size: 400% 400%;
+  opacity: 0.28;
+  filter: blur(48px);
+  will-change: transform;
+  transform: rotateZ(360deg);
+  -moz-transform: rotateZ(360deg);
+  -ms-transform: rotateZ(360deg);
+  -webkit-transform: rotateZ(360deg);
+  animation: colorShift 12s ease-in-out infinite
+}
+
+@keyframes colorShift {
+  0% {background-position: 0 50%}
+  50% {background-position: 100% 50%}
+  100% {background-position: 0 50%}
 }
 
 
