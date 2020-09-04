@@ -13,7 +13,7 @@
   z-index: -1;
   grid-row: 1 / 8;
   grid-column: 2 / 8;
-  background: linear-gradient(-45deg, #28f5e4, #6a82fb, #fc5c7d);
+  background: linear-gradient(-45deg, #28f5e4, #6a82fb, #fc5c7d, #f8d856);
   background-size: 400% 400%;
   opacity: 0.28;
   filter: blur(48px);
@@ -22,7 +22,7 @@
   -moz-transform: rotateZ(360deg);
   -ms-transform: rotateZ(360deg);
   -webkit-transform: rotateZ(360deg);
-  animation: colorShift 12s ease-in-out infinite
+  animation: colorShift 18s ease-in-out infinite
 }
 
 @keyframes colorShift {
