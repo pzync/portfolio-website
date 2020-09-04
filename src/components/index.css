@@ -13,7 +13,7 @@
   z-index: -1;
   grid-row: 1 / 8;
   grid-column: 2 / 8;
-  background: linear-gradient(-45deg, #f8d856, #fc5c7d, #6a82fb, #46bbff);
+  background: linear-gradient(-45deg, #f8e38d, #fc5c7d, #6a82fb, #469cff, #46daff);
   background-size: 400% 400%;
   opacity: 0.28;
   filter: blur(48px);
