@@ -29,7 +29,7 @@
 @keyframes colorShift {
   0% {background-position: 0 33%}
   33% {background-position: 33% 50%}
-  66% {background-position: 100% 66%%}
+  66% {background-position: 100% 66%}
   100% {background-position: 0 33%}
 }
 
