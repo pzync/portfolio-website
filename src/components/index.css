@@ -26,12 +26,20 @@
   animation: colorShift 20s ease-in-out infinite
 }
 
-@keyframes colorShift {
+/* For subtle - sky blue to mostly reddish orange - transition */
+/* @keyframes colorShift {
   0% {background-position: 0 33%}
   50% {background-position: 33% 50%}
   100% {background-position: 0 33%}
-}
+} */
 
+/* For distinct sky blue to reddish orange to yellow transition */
+@keyframes colorShift {
+  0% {background-position: 0 33%}
+  33% {background-position: 33% 50%}
+  66% {background-position: 95% 75%}
+  100% {background-position: 0 33%}
+  }
 
 .H1AndSocialLinkLogos {
   grid-row: 4 / 5;
