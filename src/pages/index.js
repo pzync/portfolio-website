@@ -41,7 +41,7 @@ const IndexPage = () => (
         </div>
         
         <div className="HelloAndStatsAtBottom">
-          <p className="HelloAtBottom">Hello! I’m a designer and product manager with 8+ years of experience across product creation, user experience (UI/UX) & creative direction. Currently, I head design at Juspay. Stats about some of my work:</p>
+          <p className="HelloAtBottom">Hello! I’m a designer and product manager with 10+ years of experience across product creation, user experience (UI/UX) & creative direction. Currently, I head design at Juspay. Stats about some of my work:</p>
           <div className="StatsContainer">
             <div className="Stat">
               <p className="StatNumber"><span className="StatNumberBold">5</span><span className="StatNumberLight">Bn</span></p>
