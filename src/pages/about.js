@@ -14,7 +14,7 @@ const AboutPage = () => (
         <p className="AboutHeroMassive">Hello!</p>
         <div className="AboutHeroSeparator"></div>
         <p>
-          I’m a designer and product manager with 8+ years of experience
+          I’m a designer and product manager with 10+ years of experience
           across product creation, user experience (UI/UX) & creative direction.
           Currently, I head design at Juspay.
         </p>
