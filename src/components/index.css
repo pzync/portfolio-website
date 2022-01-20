@@ -70,6 +70,7 @@
   margin-left: -4px;
   margin-bottom: 24px;
   line-height: 0.9;
+  mix-blend-mode: color-dodge;
 }
 
 .SocialLinkLogo {
@@ -164,6 +165,7 @@ and (max-width: 480px) {
     font-size: 72px;
     margin-bottom: 36px;
     margin-left: -2px;
+    mix-blend-mode: normal;
   }
 
   .SocialLinkLogo {
