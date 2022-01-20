@@ -63,7 +63,7 @@
   /* This .073 multiplier took care of the weird HugeH1 
   size between 767 to 860 px browser width on desktop*/
   font-size: calc(88px - 0.073*(1280px - 100vw)); 
-  font-weight: 900;
+  font-weight: 800;
   color: #10051D;
   letter-spacing: -1.6px;
   margin-top: 0;
