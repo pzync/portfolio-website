@@ -22,10 +22,7 @@ const WorkPage = () => (
           successful fundraising pitches.
         </p>
 
-        <p>
-          My daily tools of trade include Sketch, Principle, Flinto, Invision,
-          and React.
-        </p>
+      
       </section>
       <div>
         <h3 className="WorkSectionHeading WorkCenteredTextContent">Featured Work</h3>
