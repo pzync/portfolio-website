@@ -11,8 +11,9 @@ const AboutPage = () => (
     <main className="AboutBodyContainer">
       <section className="AboutTextContent">
        
-        <p className="AboutHeroMassive">Hello!</p>
-        <div className="AboutHeroSeparator"></div>
+        /*<p className="AboutHeroMassive">Hello!</p>*/
+        /*<div className="AboutHeroSeparator"></div>*/
+        <p className="AboutHeroMassive">👋🏼</p
         <p>
           I’m a designer and product manager with 10+ years of experience
           across product creation, user experience (UI/UX) & creative direction.
